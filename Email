@@ -1,0 +1,9 @@
+email=input()
+if email.endswith('@gmail.com'):
+    print('you are using google account')
+elif email.endswith('@yahoo.com'):
+    print('you are using yahoo account')
+elif email.endswith('@outlook.com'):
+    print('you are using microsoft account')
+else:
+    print('invalid email Id')
